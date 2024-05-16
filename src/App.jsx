@@ -22,6 +22,7 @@ const Statistics = ({ good, neutral, bad, total, sum }) => {
   }
   return (
     <div>
+      <h1>hello</h1>
       <h1>Statistics</h1>
       <Display text="good" value={good} />
       <Display text="neutral" value={neutral} />
