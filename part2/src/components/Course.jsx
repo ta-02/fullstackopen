@@ -1,5 +1,5 @@
 const Course = ({ course }) => {
-  const total = course.parts.reduce((acc, part) => acc + part.exercises, 0);
+  const total = course.parts.reduce((total, part) => total + part.exercises, 0);
   return (
     <div>
       <h1>{course.name}</h1>
